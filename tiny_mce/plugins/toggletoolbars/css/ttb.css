@@ -1,0 +1,3 @@
+div.mceToggleToolbar {display:block;border:none;}
+a.mceToggleToolbarTop {display:block;width:52px;height:12px;padding:0px;border:0;background:#fff url(../img/handle_top.gif) no-repeat left bottom;}
+a.mceToggleToolbarBottom {display:block;width:52px;height:12px;padding:0px;border:0px;background:#fff url(../img/handle_bottom.gif) no-repeat left top;}

@@ -1,0 +1,912 @@
+.defaultSkin table, 
+.defaultSkin tbody, 
+.defaultSkin a, 
+.defaultSkin img, 
+.defaultSkin tr, 
+.defaultSkin div, 
+.defaultSkin td, 
+.defaultSkin iframe, 
+.defaultSkin span, 
+.defaultSkin *, 
+.defaultSkin .mceText
+{
+	background: transparent !important;
+	border: 0 !important;
+	border-collapse: separate !important;
+	color: #000 !important;
+	cursor: default !important;
+	font-weight: normal !important;
+	margin: 0px !important;
+	padding: 0 !important;
+	text-align: left !important;
+	text-decoration: none !important;
+	vertical-align: baseline !important;
+	white-space: nowrap !important;
+	width: auto !important;
+}
+.defaultSkin a:hover, 
+.defaultSkin a:link, 
+.defaultSkin a:visited, 
+.defaultSkin a:active
+{
+	color: #000 !important;
+	cursor: default !important;
+	font-weight: normal !important;
+	text-decoration: none !important;
+}
+.defaultSkin table td
+{
+	vertical-align: middle !important;
+}
+.defaultSkin table
+{
+	background: #F0F0EE !important;
+	direction: ltr !important;
+}
+.defaultSkin iframe
+{
+	background: #FFF !important;
+	display: block !important;
+}
+.defaultSkin .mceToolbar
+{
+	height: 26px !important;
+}
+.defaultSkin .mceLeft
+{
+	text-align: left !important;
+}
+.defaultSkin .mceRight
+{
+	text-align: right !important;
+}
+.defaultSkin .mceExternalToolbar
+{
+	border: 1px solid #CCC !important;
+	border-bottom: 0 !important;
+	display: none !important;
+	position: absolute !important;
+}
+.defaultSkin .mceExternalToolbar td.mceToolbar
+{
+	padding-right: 13px !important;
+}
+.defaultSkin .mceExternalClose
+{
+	background: url(../../img/icons.gif) -820px 0 !important;
+	height: 7px !important;
+	position: absolute !important;
+	right: 3px !important;
+	top: 3px !important;
+	width: 7px !important;
+}
+.defaultSkin table.mceLayout
+{
+	border: 0 !important;
+	border-left: 1px solid #CCC !important;
+	border-right: 1px solid #CCC !important;
+}
+.defaultSkin table.mceLayout tr.mceFirst td
+{
+	border-top: 1px solid #CCC !important;
+}
+.defaultSkin table.mceLayout tr.mceLast td
+{
+	border-bottom: 1px solid #CCC !important;
+}
+.defaultSkin table.mceToolbar, .defaultSkin tr.mceFirst .mceToolbar tr td, .defaultSkin tr.mceLast .mceToolbar tr td
+{
+	border: 0 !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.defaultSkin td.mceToolbar
+{
+	padding-top: 1px !important;
+	vertical-align: top !important;
+}
+.defaultSkin .mceIframeContainer
+{
+	border-bottom: 1px solid #CCC !important;
+	border-top: 1px solid #CCC !important;
+}
+.defaultSkin .mceStatusbar
+{
+	color: #000 !important;
+	display: block !important;
+	font-family: 'MS Sans Serif',sans-serif,Verdana,Arial !important;
+	font-size: 9pt !important;
+	height: 20px !important;
+	line-height: 16px !important;
+	overflow: visiblev
+}
+.defaultSkin .mceStatusbar div
+{
+	float: left !important;
+	margin: 2pxv
+}
+.defaultSkin .mceStatusbar a.mceResize
+{
+	background: url(../../img/icons.gif) -800px 0 !important;
+	cursor: se-resize !important;
+	display: block !important;
+	float: right !important;
+	height: 20pxv
+	outline: 0 !important;
+	width: 20px !important;
+}
+.defaultSkin .mceStatusbar a:hover
+{
+	text-decoration: underline !important;
+}
+.defaultSkin table.mceToolbar
+{
+	margin-left: 3px !important;
+}
+.defaultSkin span.mceIcon, .defaultSkin img.mceIcon
+{
+	display: block !important;
+	height: 20px !important;
+	width: 20px !important;
+}
+.defaultSkin .mceIcon
+{
+	background: url(../../img/icons.gif) no-repeat 20px 20px !important;
+}
+.defaultSkin td.mceCenter
+{
+	text-align: center !important;
+}
+.defaultSkin td.mceCenter table
+{
+	margin: 0 auto !important;
+	text-align: leftv
+}
+.defaultSkin td.mceRight table
+{
+	margin: 0 0 0 auto !important;
+}
+.defaultSkin .mceButton
+{
+	border: 1px solid #F0F0EE !important;
+	display: block !important;
+	height: 20px !important;
+	margin-right: 1px !important;
+	width: 20px !important;
+}
+.defaultSkin a.mceButtonEnabled:hover
+{
+	background-color: #B2BBD0 !important;
+	border: 1px solid #0A246A !important;
+}
+.defaultSkin a.mceButtonActive, .defaultSkin a.mceButtonSelected
+{
+	background-color: #C2CBE0 !important;
+	border: 1px solid #0A246A !important;
+}
+.defaultSkin .mceButtonDisabled .mceIcon
+{
+	filter: alpha(opacity=30) !important;
+	ms-filter: 'alpha(opacity=30)' !important;
+	opacity: 0.3 !important;
+}
+.defaultSkin .mceButtonLabeled
+{
+	width: auto !important;
+}
+.defaultSkin .mceButtonLabeled span.mceIcon
+{
+	float: left !important;
+}
+.defaultSkin span.mceButtonLabel
+{
+	display: block !important;
+	font-family: Tahoma,Verdana,Arial,Helvetica !important;
+	font-size: 10px !important;
+	padding: 4px 6px 0 22px !important;
+}
+.defaultSkin .mceButtonDisabled .mceButtonLabel
+{
+	color: #888 !important;
+}
+.defaultSkin .mceSeparator
+{
+	background: url(../../img/icons.gif) -180px 0 !important;
+	display: block !important;
+	height: 20px !important;
+	margin: 2px 2px 0 4px !important;
+	width: 2px !important;
+}
+.defaultSkin .mceListBox, .defaultSkin .mceListBox a
+{
+	display: block !important;
+}
+.defaultSkin .mceListBox .mceText
+{
+	background: #FFF !important;
+	border: 1px solid #CCC !important;
+	border-right: 0 !important;
+	font-family: Tahoma,Verdana,Arial,Helvetica !important;
+	font-size: 11px !important;
+	height: 20px !important;
+	line-height: 20px !important;
+	overflow: hidden !important;
+	padding-left: 4px !important;
+	text-align: left !important;
+	width: 70px !important;
+}
+.defaultSkin .mceListBox .mceOpen
+{
+	background: url(../../img/icons.gif) -741px 0 !important;
+	border: 1px solid #CCC !important;
+	height: 20px !important;
+	margin-right: 2px !important;
+	width: 9px !important;
+}
+.defaultSkin table.mceListBoxEnabled:hover .mceText, .defaultSkin .mceListBoxHover .mceText, .defaultSkin .mceListBoxSelected .mceText
+{
+	background: #FFF !important;
+	border: 1px solid #A2ABC0 !important;
+	border-right: 0 !important;
+}
+.defaultSkin table.mceListBoxEnabled:hover .mceOpen, .defaultSkin .mceListBoxHover .mceOpen, .defaultSkin .mceListBoxSelected .mceOpen
+{
+	background-color: #FFF !important;
+	border: 1px solid #A2ABC0 !important;
+}
+.defaultSkin .mceListBoxDisabled a.mceText
+{
+	background-color: transparent !important;
+	color: gray !important;
+}
+.defaultSkin .mceListBoxMenu
+{
+	overflow: auto !important;
+	overflow-x: hidden !important;
+}
+.defaultSkin .mceOldBoxModel .mceListBox .mceText
+{
+	height: 22px !important;
+}
+.defaultSkin .mceOldBoxModel .mceListBox .mceOpen
+{
+	height: 22px !important;
+	width: 11pxv
+}
+.defaultSkin select.mceNativeListBox
+{
+	background: #F0F0EE !important;
+	border: 1px solid gray !important;
+	font-family: 'MS Sans Serif',sans-serif,Verdana,Arial !important;
+	font-size: 7pt !important;
+	margin-right: 2px !important;
+}
+.defaultSkin .mceSplitButton
+{
+	direction: ltr !important;
+	height: 20px !important;
+	width: 32px !important;
+}
+.defaultSkin .mceSplitButton a, .defaultSkin .mceSplitButton span
+{
+	display: block !important;
+	height: 20px !important;
+}
+.defaultSkin .mceSplitButton a.mceAction
+{
+	border: 1px solid #F0F0EE !important;
+	border-right: 0 !important;
+	width: 20px !important;
+}
+.defaultSkin .mceSplitButton span.mceAction
+{
+	background-image: url(../../img/icons.gif) !important;
+	width: 20px !important;
+}
+.defaultSkin .mceSplitButton a.mceOpen
+{
+	background: url(../../img/icons.gif) -741px 0 !important;
+	border: 1px solid #F0F0EE !important;
+	width: 9px !important;
+}
+.defaultSkin .mceSplitButton span.mceOpen
+{
+	display: none !important;
+}
+.defaultSkin table.mceSplitButtonEnabled:hover a.mceAction, .defaultSkin .mceSplitButtonHover a.mceAction, .defaultSkin .mceSplitButtonSelected a.mceAction
+{
+	background-color: #B2BBD0 !important;
+	border: 1px solid #0A246A !important;
+	border-right: 0 !important;
+}
+.defaultSkin table.mceSplitButtonEnabled:hover a.mceOpen, .defaultSkin .mceSplitButtonHover a.mceOpen, .defaultSkin .mceSplitButtonSelected a.mceOpen
+{
+	background-color: #B2BBD0 !important;
+	border: 1px solid #0A246A !important;
+}
+.defaultSkin .mceSplitButtonDisabled .mceAction, .defaultSkin .mceSplitButtonDisabled a.mceOpen
+{
+	filter: alpha(opacity=30) !important;
+	ms-filter: 'alpha(opacity=30)' !important;
+	opacity: 0.3 !important;
+}
+.defaultSkin .mceSplitButtonActive a.mceAction
+{
+	background-color: #C2CBE0 !important;
+	border: 1px solid #0A246A !important;
+}
+.defaultSkin .mceSplitButtonActive a.mceOpen
+{
+	border-left: 0 !important;
+}
+.defaultSkin div.mceColorSplitMenu table
+{
+	background: #FFF !important;
+	border: 1px solid gray !important;
+}
+.defaultSkin .mceColorSplitMenu td
+{
+	padding: 2px !important;
+}
+.defaultSkin .mceColorSplitMenu a
+{
+	border: 1px solid #808080 !important;
+	display: block !important;
+	height: 9px !important;
+	overflow: hidden !important;
+	width: 9px !important;
+}
+.defaultSkin .mceColorSplitMenu td.mceMoreColors
+{
+	padding: 1px 3px 1px 1px !important;
+}
+.defaultSkin .mceColorSplitMenu a.mceMoreColors
+{
+	border: 1px solid #FFF !important;
+	font-family: Tahoma,Verdana,Arial,Helvetica !important;
+	font-size: 11px !important;
+	height: auto !important;
+	line-height: 20px !important;
+	text-align: center !important;
+	width: 100% !important;
+}
+.defaultSkin .mceColorSplitMenu a.mceMoreColors:hover
+{
+	background-color: #B6BDD2 !important;
+	border: 1px solid #0A246A !important;
+}
+.defaultSkin a.mceMoreColors:hover
+{
+	border: 1px solid #0A246A !important;
+}
+.defaultSkin .mceColorPreview
+{
+	background: #9a9b9a !important;
+	height: 4px !important;
+	margin-left: 2px !important;
+	overflow: hidden !important;
+	width: 16px !important;
+}
+.defaultSkin .mce_forecolor span.mceAction, .defaultSkin .mce_backcolor span.mceAction
+{
+	height: 16px !important;
+	overflow: hidden !important;
+}
+.defaultSkin .mceMenu
+{
+	border: 1px solid #D4D0C8 !important;
+	left: 0 !important;
+	position: absolute !important;
+	top: 0 !important;
+	z-index: 1000 !important;
+}
+.defaultSkin .mceNoIcons span.mceIcon
+{
+	width: 0 !important;
+}
+.defaultSkin .mceNoIcons a .mceText
+{
+	padding-left: 10px !important;
+}
+.defaultSkin .mceMenu table
+{
+	background: #FFF !important;
+}
+.defaultSkin .mceMenu a, .defaultSkin .mceMenu span, .defaultSkin .mceMenu
+{
+	display: block !important;
+}
+.defaultSkin .mceMenu td
+{
+	height: 20px !important;
+}
+.defaultSkin .mceMenu a
+{
+	padding: 3px 0 4px 0 !important;
+	position: relative !important;
+}
+.defaultSkin .mceMenu .mceText
+{
+	color: #000 !important;
+	cursor: default !important;
+	display: block !important;
+	font-family: Tahoma,Verdana,Arial,Helvetica !important;
+	margin: 0 !important;
+	padding: 0 25px 0 25px !important;
+	position: relative !important;
+}
+.defaultSkin .mceMenu span.mceText, .defaultSkin .mceMenu .mcePreview
+{
+	font-size: 11px !important;
+}
+.defaultSkin .mceMenu pre.mceText
+{
+	font-family: Monospace !important;
+}
+.defaultSkin .mceMenu .mceIcon
+{
+	left: 0 !important;
+	position: absolute !important;
+	top: 0 !important;
+	width: 22px !important;
+}
+.defaultSkin .mceMenu .mceMenuItemEnabled a:hover, .defaultSkin .mceMenu .mceMenuItemActive
+{
+	background-color: #dbecf3 !important;
+}
+.defaultSkin td.mceMenuItemSeparator
+{
+	background: #DDD !important;
+	height: 1px !important;
+}
+.defaultSkin .mceMenuItemTitle a
+{
+	background: #EEE !important;
+	border: 0 !important;
+	border-bottom: 1px solid #DDD !important;
+}
+.defaultSkin .mceMenuItemTitle span.mceText
+{
+	color: #000 !important;
+	font-weight: bold !important;
+	padding-left: 4px !important;
+}
+.defaultSkin .mceMenuItemDisabled .mceText
+{
+	color: #888 !important;
+}
+.defaultSkin .mceMenuItemSelected .mceIcon
+{
+	background: url(img/menu_check.gif) !important;
+}
+.defaultSkin .mceNoIcons .mceMenuItemSelected a
+{
+	background: url(img/menu_arrow.gif) no-repeat -6px center !important;
+}
+.defaultSkin .mceMenu span.mceMenuLine
+{
+	display: none;
+}
+.defaultSkin .mceMenuItemSub a
+{
+	background: url(img/menu_arrow.gif) no-repeat top right !important;
+}
+.defaultSkin .mceBlocker
+{
+	background: #FFF !important;
+	filter: alpha(opacity=50) !important;
+	left: 0 !important;
+	ms-filter: 'alpha(opacity=50)' !important;
+	opacity: 0.5 !important;
+	position: absolute !important;
+	top: 0 !important;
+	z-index: 1000 !important;
+}
+.defaultSkin .mceProgress
+{
+	background: url(img/progress.gif) no-repeat !important;
+	height: 32px !important;
+	left: 0 !important;
+	margin: -16px 0 0 -16px !important;
+	position: absolute !important;
+	top: 0 !important;
+	width: 32px !important;
+	z-index: 1001 !important;
+}
+.defaultSkin .mce_formatPreview a
+{
+	font-size: 10px !important;
+}
+.defaultSkin .mce_p span.mceText
+{
+}
+.defaultSkin .mce_address span.mceText
+{
+	font-style: italic !important;
+}
+.defaultSkin .mce_pre span.mceText
+{
+	font-family: monospace !important;
+}
+.defaultSkin .mce_h1 span.mceText
+{
+	font-size: 2em !important;
+	font-weight: bolder !important;
+}
+.defaultSkin .mce_h2 span.mceText
+{
+	font-size: 1.5em !important;
+	font-weight: bolder !important;
+}
+.defaultSkin .mce_h3 span.mceText
+{
+	font-size: 1.17em !important;
+	font-weight: bolder !important;
+}
+.defaultSkin .mce_h4 span.mceText
+{
+	font-size: 1em !important;
+	font-weight: bolder !important;
+}
+.defaultSkin .mce_h5 span.mceText
+{
+	font-size: .83em !important;
+	font-weight: bolder !important;
+}
+.defaultSkin .mce_h6 span.mceText
+{
+	font-size: .75em !important;
+	font-weight: bolder !important;
+}
+.defaultSkin span.mce_bold
+{
+	background-position: 0 0 !important;
+}
+.defaultSkin span.mce_italic
+{
+	background-position: -60px 0 !important;
+}
+.defaultSkin span.mce_underline
+{
+	background-position: -140px 0 !important;
+}
+.defaultSkin span.mce_strikethrough
+{
+	background-position: -120px 0 !important;
+}
+.defaultSkin span.mce_undo
+{
+	background-position: -160px 0 !important;
+}
+.defaultSkin span.mce_redo
+{
+	background-position: -100px 0 !important;
+}
+.defaultSkin span.mce_cleanup
+{
+	background-position: -40px 0 !important;
+}
+.defaultSkin span.mce_bullist
+{
+	background-position: -20px 0 !important;
+}
+.defaultSkin span.mce_numlist
+{
+	background-position: -80px 0 !important;
+}
+.defaultSkin span.mce_justifyleft
+{
+	background-position: -460px 0 !important;
+}
+.defaultSkin span.mce_justifyright
+{
+	background-position: -480px 0 !important;
+}
+.defaultSkin span.mce_justifycenter
+{
+	background-position: -420px 0 !important;
+}
+.defaultSkin span.mce_justifyfull
+{
+	background-position: -440px 0 !important;
+}
+.defaultSkin span.mce_anchor
+{
+	background-position: -200px 0 !important;
+}
+.defaultSkin span.mce_indent
+{
+	background-position: -400px 0 !important;
+}
+.defaultSkin span.mce_outdent
+{
+	background-position: -540px 0 !important;
+}
+.defaultSkin span.mce_link
+{
+	background-position: -500px 0 !important;
+}
+.defaultSkin span.mce_unlink
+{
+	background-position: -640px 0 !important;
+}
+.defaultSkin span.mce_sub
+{
+	background-position: -600px 0 !important;
+}
+.defaultSkin span.mce_sup
+{
+	background-position: -620px 0 !important;
+}
+.defaultSkin span.mce_removeformat
+{
+	background-position: -580px 0 !important;
+}
+.defaultSkin span.mce_newdocument
+{
+	background-position: -520px 0 !important;
+}
+.defaultSkin span.mce_image
+{
+	background-position: -380px 0 !important;
+}
+.defaultSkin span.mce_help
+{
+	background-position: -340px 0 !important;
+}
+.defaultSkin span.mce_code
+{
+	background-position: -260px 0 !important;
+}
+.defaultSkin span.mce_hr
+{
+	background-position: -360px 0 !important;
+}
+.defaultSkin span.mce_visualaid
+{
+	background-position: -660px 0 !important;
+}
+.defaultSkin span.mce_charmap
+{
+	background-position: -240px 0 !important;
+}
+.defaultSkin span.mce_paste
+{
+	background-position: -560px 0 !important;
+}
+.defaultSkin span.mce_copy
+{
+	background-position: -700px 0 !important;
+}
+.defaultSkin span.mce_cut
+{
+	background-position: -680px 0 !important;
+}
+.defaultSkin span.mce_blockquote
+{
+	background-position: -220px 0 !important;
+}
+.defaultSkin .mce_forecolor span.mceAction
+{
+	background-position: -720px 0 !important;
+}
+.defaultSkin .mce_backcolor span.mceAction
+{
+	background-position: -760px 0 !important;
+}
+.defaultSkin span.mce_forecolorpicker
+{
+	background-position: -720px 0 !important;
+}
+.defaultSkin span.mce_backcolorpicker
+{
+	background-position: -760px 0 !important;
+}
+.defaultSkin span.mce_advhr
+{
+	background-position: -0px -20px !important;
+}
+.defaultSkin span.mce_ltr
+{
+	background-position: -20px -20px !important;
+}
+.defaultSkin span.mce_rtl
+{
+	background-position: -40px -20px !important;
+}
+.defaultSkin span.mce_emotions
+{
+	background-position: -60px -20px !important;
+}
+.defaultSkin span.mce_fullpage
+{
+	background-position: -80px -20px !important;
+}
+.defaultSkin span.mce_fullscreen
+{
+	background-position: -100px -20px !important;
+}
+.defaultSkin span.mce_iespell
+{
+	background-position: -120px -20px !important;
+}
+.defaultSkin span.mce_insertdate
+{
+	background-position: -140px -20px !important;
+}
+.defaultSkin span.mce_inserttime
+{
+	background-position: -160px -20px !important;
+}
+.defaultSkin span.mce_absolute
+{
+	background-position: -180px -20px !important;
+}
+.defaultSkin span.mce_backward
+{
+	background-position: -200px -20px !important;
+}
+.defaultSkin span.mce_forward
+{
+	background-position: -220px -20px !important;
+}
+.defaultSkin span.mce_insert_layer
+{
+	background-position: -240px -20px !important;
+}
+.defaultSkin span.mce_insertlayer
+{
+	background-position: -260px -20px !important;
+}
+.defaultSkin span.mce_movebackward
+{
+	background-position: -280px -20px !important;
+}
+.defaultSkin span.mce_moveforward
+{
+	background-position: -300px -20px !important;
+}
+.defaultSkin span.mce_media
+{
+	background-position: -320px -20px !important;
+}
+.defaultSkin span.mce_nonbreaking
+{
+	background-position: -340px -20px !important;
+}
+.defaultSkin span.mce_pastetext
+{
+	background-position: -360px -20px !important;
+}
+.defaultSkin span.mce_pasteword
+{
+	background-position: -380px -20px !important;
+}
+.defaultSkin span.mce_selectall
+{
+	background-position: -400px -20px !important;
+}
+.defaultSkin span.mce_preview
+{
+	background-position: -420px -20px !important;
+}
+.defaultSkin span.mce_print
+{
+	background-position: -440px -20px !important;
+}
+.defaultSkin span.mce_cancel
+{
+	background-position: -460px -20px !important;
+}
+.defaultSkin span.mce_save
+{
+	background-position: -480px -20px !important;
+}
+.defaultSkin span.mce_replace
+{
+	background-position: -500px -20px !important;
+}
+.defaultSkin span.mce_search
+{
+	background-position: -520px -20px !important;
+}
+.defaultSkin span.mce_styleprops
+{
+	background-position: -560px -20px !important;
+}
+.defaultSkin span.mce_table
+{
+	background-position: -580px -20pxv !important;
+}
+.defaultSkin span.mce_cell_props
+{
+	background-position: -600px -20px !important;
+}
+.defaultSkin span.mce_delete_table
+{
+	background-position: -620px -20px !important;
+}
+.defaultSkin span.mce_delete_col
+{
+	background-position: -640px -20px !important;
+}
+.defaultSkin span.mce_delete_row
+{
+	background-position: -660px -20px !important;
+}
+.defaultSkin span.mce_col_after
+{
+	background-position: -680px -20px !important;
+}
+.defaultSkin span.mce_col_before
+{
+	background-position: -700px -20px !important;
+}
+.defaultSkin span.mce_row_after
+{
+	background-position: -720px -20px !important;
+}
+.defaultSkin span.mce_row_before
+{
+	background-position: -740px -20px !important;
+}
+.defaultSkin span.mce_merge_cells
+{
+	background-position: -760px -20px !important;
+}
+.defaultSkin span.mce_table_props
+{
+	background-position: -980px -20px !important;
+}
+.defaultSkin span.mce_row_props
+{
+	background-position: -780px -20px !important;
+}
+.defaultSkin span.mce_split_cells
+{
+	background-position: -800px -20px !important;
+}
+.defaultSkin span.mce_template
+{
+	background-position: -820px -20px !important;
+}
+.defaultSkin span.mce_visualchars
+{
+	background-position: -840px -20px !important;
+}
+.defaultSkin span.mce_abbr
+{
+	background-position: -860px -20px !important;
+}
+.defaultSkin span.mce_acronym
+{
+	background-position: -880px -20px !important;
+}
+.defaultSkin span.mce_attribs
+{
+	background-position: -900px -20px !important;
+}
+.defaultSkin span.mce_cite
+{
+	background-position: -920px -20px !important;
+}
+.defaultSkin span.mce_del
+{
+	background-position: -940px -20px !important;
+}
+.defaultSkin span.mce_ins
+{
+	background-position: -960px -20px !important;
+}
+.defaultSkin span.mce_pagebreak
+{
+	background-position: 0 -40px !important;
+}
+.defaultSkin span.mce_restoredraft
+{
+	background-position: -20px -40px !important;
+}
+.defaultSkin span.mce_spellchecker
+{
+	background-position: -540px -20px !important;
+}
